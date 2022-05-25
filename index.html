@@ -17,6 +17,13 @@
     <div id="app">
         <header>
             <img src="./img/logo.png" alt="">
+            <div>
+                <select name="genere" id="genere"  @change="changeSearch()" v-model="selectedGenere">
+                    <option value="">Scegli un genere:</option>
+                    <option value="">All</option>
+                    <option :value="genre" v-for="(genre, index) in genere" :key="index">{{genre}}</option>
+                </select>
+              </div>
         </header>
         <main>
             <div class="container">
