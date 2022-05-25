@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #1e2d3b;
+    height: 100vh;
+}
+header{
+    background-color: #2e3a46;
+    height: 60px;
+}
+header img{
+    padding: 10px;
+    width: 60px;
+    height: 60px;
+}
+.card-container{
+    padding: 12px;
+    background-color: #2e3a46;
+    height: 300px;
+    text-align: center;
+}
+.card-container img{
+    width:90%;
+}
+.card-container h4{
+    color: #fdfdfe;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    padding-top: 5px;
+}
+.card-container p{
+    color: #67777a;
+    font-size: 14px;
+}
